@@ -1,7 +1,7 @@
 // ✅ Valid next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
     domains: ['cloudflare-ipfs.com'],
   },
