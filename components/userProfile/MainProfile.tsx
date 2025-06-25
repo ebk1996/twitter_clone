@@ -19,8 +19,8 @@ const MainProfile: React.FC<MainProfileProps> = ({ tweets: tweetProp }) => {
   const router = useRouter();
   const { userName } = router.query;
 
-  /* 
-  console.log(userName); */
+
+  console.log(userName); 
 
   return (
     <div className="col-span-7 scrollbar-hide border-x max-h-screen overflow-scroll lg:col-span-5 dark:border-gray-800">

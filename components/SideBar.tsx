@@ -27,8 +27,8 @@ const SideBar: React.FC<SideBarProps> = ({ isShow, isHome }) => {
     <div className="col-span-2 flex flex-col item-center px-4 md:items-start">
       <img
         className="m-3 h-10 w-10"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/1200px-Twitter-logo.svg.png"
-        alt=""
+        src="https://cardinal-images.s3.us-west-1.amazonaws.com/cardinal-logo-2.jpg"
+        alt="cardinal-logo"
       />
       <SidebarRow Icon={HomeIcon} title="Home" isShow={isHome} />
       <SidebarRow Icon={HashtagIcon} title="Explore" />

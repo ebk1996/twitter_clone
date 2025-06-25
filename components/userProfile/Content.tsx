@@ -41,8 +41,8 @@ const Content: React.FC<ContentProps> = ({ userPName, userPhotoUrl }) => {
     setUseYear(shuffle(years).pop());
   }, [userPName]);
 
-  /*   console.log(userPName, "yo");
-  console.log(user?.displayName); */
+  console.log(userPName, "yo");
+  console.log(user?.displayName); 
 
   return (
     <div>
@@ -136,7 +136,7 @@ const Content: React.FC<ContentProps> = ({ userPName, userPhotoUrl }) => {
               <p className="text-gray-500 leading-tight mb-2 dark:text-gray-300">
                 {faker.name.jobType()} / {faker.name.jobTitle()} /
                 {faker.company.name()} <br />
-                Visit my website to test a working <b>Twitter Clone.</b>
+                <b>Cardinal &copy;</b>
               </p>
               <div className="text-gray-600 flex dark:text-gray-400">
                 <span className="flex mr-2">
